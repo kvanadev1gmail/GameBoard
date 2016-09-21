@@ -33,7 +33,6 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <script type = "text/javascript" href = "js/index.js">
-        <title>Hello World</title>
 
 
 <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
@@ -51,28 +50,21 @@
     </head>
 
 
-    <body>
-<div class="topnav">
-    <div class="backbutton" src="img/logo.png">
-<button>
-  <!-- <img src="img/logo.png" /> -->
-  </button>
-</div>
-</div>
+<body>
+    <div class="topnav" onclick="backbuttonclick()">
+        <div class="backbutton">
+            <!-- <button onclick="backbuttonclick()"> -->
+                <img src="img/arrow_back.png" width="50" height="40" alignment="center">
+            <!-- </button> -->
+        </div>
+        <div class="label">
+            <label for="selct">Select a game</label>
+        </div>
+    </div>
 
 
-
-
-
-  
-
-
-
-<!-- <div class="button">
-    <button onclick="go()">Go</button>
-</div> -->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-    </body>
 
+</body>
 </html>

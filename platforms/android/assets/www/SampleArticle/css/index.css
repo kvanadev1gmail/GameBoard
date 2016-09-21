@@ -82,6 +82,37 @@ button{
     border-radius: 5px;
 }
 
+/*navigation bar*/
+
+body {margin: 0;}
+
+.topnav {
+        height:100px; 
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.backbutton{
+
+ height:100px; 
+    width:100px; 
+    padding: 0px 0px;
+    margin: 0px 0px; 
+  
+
+    /*height:100px; 
+    width:100px; 
+    margin: 0px;
+    padding: 0px 0px;*/
+    background-image:url('img/logo.png');
+}
+
+
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {

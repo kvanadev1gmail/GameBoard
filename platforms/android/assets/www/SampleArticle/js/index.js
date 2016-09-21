@@ -56,5 +56,8 @@ function go(){
      window.location.href = "secondview.html";
 }
 
+function back(){
+     window.location.href = "index.html";
+}
 
 
