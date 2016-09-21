@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-navigationbar": {
+            "PACKAGE_NAME": "com.adobe.dps.CordovaPlugins"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.adobe.dps.CordovaPlugins"
+        },
+        "aemm-plugin-navto": {
+            "PACKAGE_NAME": "com.adobe.dps.CordovaPlugins"
+        }
+    },
+    "dependent_plugins": {}
+}

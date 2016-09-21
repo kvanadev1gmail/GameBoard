@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest package="com.adobe.dps.CordovaPlugins" xmlns:aemm="http://ns.adobe.com/aemm" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:name="com.adobe.dps.viewer.MainApplication">
+        <activity android:name="com.adobe.dps.viewer.collectionview.CollectionActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
